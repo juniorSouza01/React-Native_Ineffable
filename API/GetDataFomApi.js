@@ -35,7 +35,7 @@ export default function Advice() {
 
   return (
     <View>
-      <Text>{advice}</Text>
+      <Text style={{textAlign:"center", paddingHorizontal: 20}} >{advice}</Text>
     </View>
   );
 }
